@@ -16,3 +16,7 @@ body{
 #nav-links a{
 font-size:15px;
 }
+#dashboard h5{
+    font-size:18px;
+    font-weight:700;
+}
