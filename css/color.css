@@ -50,3 +50,35 @@ body{
 .card-orange{
     background: var(--color-orange);
 }
+/* giving background the table rows  */
+tr:nth-of-type(odd){
+    background:var(--color-white);
+}
+tr:nth-of-type(even){
+    background: transparent;
+}
+/* giving background to the div hold the rate */
+#stats-numbers .rate{
+    background:#949494;
+}
+.percent{
+    color:var(--color-white);
+}
+.percent.top{
+    background: var(--color-lightgreen);
+}
+.percent.middle{
+    background: var(--color-orange);
+    color:var(--color-black);
+}
+.percent.last{
+    background: var(--color-red);
+}
+button{
+    background: #6a6a6a;
+    color:var(--color-white);
+}
+button:hover{
+    background:#c7c7c7;
+    color:var(--color-black);
+}
