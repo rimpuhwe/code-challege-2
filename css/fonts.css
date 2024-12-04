@@ -1,0 +1,12 @@
+/* importing the fonts from google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* apply the font */
+body{
+    font-family: "Raleway";
+}
+#title span{
+    font-size: 18px;
+}
+#nav-bar{
+    font-size:15px;
+}
