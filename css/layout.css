@@ -214,6 +214,38 @@ button{
     margin:20px 0;
     border:1px solid transparent;
 }
+/* recent comments */
+#recent-comments{
+    border:2px solid green;
+}
+#comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:15px;
+}
+#comments .user{
+    display: flex;
+    gap:10px;
+    width:100%;
+}
+.user .img-container{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user:last-of-type .img-container{
+    width:12.5%;
+}
+.user .text{
+    line-height:22.5px;
+    padding:2px 16px;
+}
+.text h4{
+    margin: 15px 0;
+}
 
 
 
