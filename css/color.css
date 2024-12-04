@@ -1,0 +1,24 @@
+:root{
+    --body-background:#e8e8e8;
+    --color-red:#f44336;
+    -color-blue:#2196f3;
+    --color-darkgreen:#009688;
+    --color-orange:#ff9800;
+    --color-white:#fff;
+    --color-black:#000;
+    --color-lightyellow:#d2be0e;
+    --color-lightgreen:#4caf50;
+
+}
+body{
+    background: var(--body-background);
+}
+#title{
+    background: var(--color-black);
+}
+#title span{
+    color:var(--color-white);
+}
+#nav-bar{
+    background: var(--color-white);
+}
