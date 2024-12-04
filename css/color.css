@@ -82,3 +82,6 @@ button:hover{
     background:#c7c7c7;
     color:var(--color-black);
 }
+.text h4 span{
+    color:#817c7c;
+}
