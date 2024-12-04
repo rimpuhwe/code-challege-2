@@ -48,3 +48,9 @@ table,tr{
 button{
     font-size: 16px;
 }
+.text h4{
+    font-weight: 600;
+}
+.text h4 span{
+    font-size: 14px;
+}
