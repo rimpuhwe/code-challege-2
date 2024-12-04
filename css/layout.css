@@ -216,7 +216,7 @@ button{
 }
 /* recent comments */
 #recent-comments{
-    border:2px solid green;
+    padding-bottom: 20px;
 }
 #comments{
     display: flex;
@@ -245,6 +245,27 @@ button{
 }
 .text h4{
     margin: 15px 0;
+}
+/* styling the menu with demographic ,system and target */
+#menu{
+    width:100%;
+    padding:32px 16px;    
+}
+#menu .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.container div{
+    width:32%;
+    line-height:22.5px;
+    padding:0.15px 16px;
+}
+.container h5{
+    padding:5px;
+}
+.container div p{
+    margin:15px 0px;
 }
 
 
