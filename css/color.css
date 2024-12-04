@@ -35,5 +35,18 @@ body{
     background: #ccc;
     color:var(--color-black);
 }
-
-
+.card{
+    color:var(--color-white)
+}
+.card-blue{
+    background: var(--color-blue);
+}
+.card-red{
+    background: var(--color-red);
+}
+.card-green{
+    background: var(--color-darkgreen);
+}
+.card-orange{
+    background: var(--color-orange);
+}
