@@ -1,7 +1,7 @@
 :root{
     --body-background:#e8e8e8;
     --color-red:#f44336;
-    -color-blue:#2196f3;
+    --color-blue:#2196f3;
     --color-darkgreen:#009688;
     --color-orange:#ff9800;
     --color-white:#fff;
@@ -22,3 +22,18 @@ body{
 #nav-bar{
     background: var(--color-white);
 }
+/* nav-links */
+#nav-links a{
+    background-color:#fffefe;
+    color:var(--color-black);
+}
+#nav-links .f-child{
+    background: var(--color-blue);
+    color:var(--color-white);
+}
+#nav-links .f-child:hover ,#nav-links a:hover{
+    background: #ccc;
+    color:var(--color-black);
+}
+
+
