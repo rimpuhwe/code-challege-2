@@ -26,6 +26,25 @@ font-size:15px;
 .card h4{
     font-size: 20px;
 }
-.card h4 ,.card h3{
+.card h3{
+    font-size: 24px;
+}
+.card h3{
     font-weight: normal;
+}
+.card h4{
+    font-weight: 500;
+}
+h5{
+    font-weight: normal;
+    font-size:18px;
+}
+table,tr{
+    font-size: 15px;
+}
+.percent{
+    font-weight: 400;
+}
+button{
+    font-size: 16px;
 }
