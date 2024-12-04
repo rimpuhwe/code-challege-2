@@ -12,250 +12,253 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
-    <header>
+    <header id="title">
       <span>Logo</span>
     </header>
-    <nav id="nav-bar">
-      <div id="user">
-        <img src="" alt="" />
-        <div id="user-id ">
-          <h2>Welcome, <span>Mike</span></h2>
-          <div id="user-icons">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <i class="fa fa-user" aria-hidden="true"></i>
-            <i class="fa fa-cog" aria-hidden="true"></i>
+    <div id="divider">
+        <nav id="nav-bar">
+          <div id="user">
+            <div class="img-container">
+                <img src="./assets/avatar2.png" alt="avatar2" />
+            </div>
+            <div id="user-id">
+              <h2>Welcome, <span>Mike</span></h2>
+              <div id="user-icons">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <hr>
-      <div id="nav-links">
-        <span>Dashboard</span>
-        <a href="#"><i class="fa fa-users" aria-hidden="true">overview</i></a>
-        <a href="#"><i class="fa fa-users" aria-hidden="true"></i>views</a>
-        <a href="#"><i class="fa fa-users" aria-hidden="true"></i>traffic</a>
-        <a href="#"><i class="fa fa-bullseye" aria-hidden="true"></i>geo</a>
-        <a href="#"><i class="fa fa-diamond" aria-hidden="true"></i>orders</a>
-        <a href="#"><i class="fa fa-university" aria-hidden="true"></i>news</a>
-        <a href="#"><i class="fa fa-university" aria-hidden="true"></i>general</a>
-        <a href="#"><i class="fa fa-history" aria-hidden="true"></i>history</a>
-        <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>settings</a>
-      </div>
-    </nav>
-    <main>
-        <!-- dashboard -->
-        <div id="dashboard">
-            <header>
-                <h5>
-                    <b><i class="fa fa-tachometer" aria-hidden="true"></i>my dashboard</b>
-                </h5>
-            </header>
-            <div id="dashboard-cards">
-                <div class="card-red">
-                    <div>
-                        <i class="fa fa-comment-o" aria-hidden="true"></i>
-                        <h3>52</h4>
-                    </div>
-                    <h4>message</h4>
-                </div>
-                <div class="card-blue">
-                    <div>
-                        <i class="fa fa-eye" aria-hidden="true"></i>
-                        <h3>99</h4>
-                    </div>
-                    <h4>views</h4>
-                </div>
-                <div class="card-green">
-                    <div>
-                        <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <h3>23</h4>
-                    </div>
-                    <h4>shares</h4>
-                </div>
-                <div card-orange>
-                    <div>
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <h3>50</h4>
-                    </div>
-                    <h4>users</h4>
-                </div>
-                
-            </div>
-
-        </div>
-        <!-- feeds  -->
-        <div id="news">
-            <div id="region">
-                <h5>regions</h5>
-                <img src="" alt="regions">
-            </div>
-            <div id="feeds">
-                <h5>feeds</h5>
-                <table>
-                    <!-- feed data -->
-                    <tr>
-                        <td><i class="fa fa-user" aria-hidden="true"></i></td>
-                        <td>New record, over 90 views.</td>
-                        <td><i>10 mins</i></td>
-                    </tr>
-                    <!-- more feed data -->
-                    <tr>
-                        <td><i class="fa fa-bell" aria-hidden="true"></i></td>
-                        <td>Database error.</td>
-                        <td><i>15 mins</i></td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa fa-users" aria-hidden="true"></i></td>
-                        <td>New record, over 40 users.</td>
-                        <td><i>17 mins</i></td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa fa-comment" aria-hidden="true"></i></td>
-                        <td>New comments.</td>
-                        <td><i>25 mins</i></td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
-                        <td>Check transactions.</td>
-                        <td><i>28 mins</i></td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa fa-laptop" aria-hidden="true"></i></td>
-                        <td>CPU overload.</td>
-                        <td><i>35 mins</i></td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa fa-share-alt" aria-hidden="true"></i></td>
-                        <td>New shares.</td>
-                        <td><i>39 mins</i></td>
-                    </tr>
-
-                </table>
-            </div>
-        </div>
-        <!-- statitics with their rates -->
-        <div id="statistics">
-            <h5>general stats</h5>
-            <!-- rates -->
-            <div id="stats-numbers">
-                <p>New Visitors</p>
-                <div>
-                    <div>+25%</div>
-                </div>
-                <p>New Users</p>
-                <div>
-                    <div>50%</div>
-                </div>
-                <p>Bounce Rate</p>
-                <div>
-                    <div>75%</div>
-                </div>
-            </div>
-
-        </div>
-        <!-- countries and its counts -->
-        <div id="countries">
-            <h5>countries</h5>
-            <table>
-                <!-- country data -->
-                <tr>
-                    <td>United States</td>
-                    <td>65%</td>
-                </tr>
-                <!-- more country data -->
-                <tr>
-                    <td>UK</td>
-                    <td>15.7%</td>
-                </tr>
-                <tr>
-                    <td>Russia</td>
-                    <td>5.6%</td>
-                </tr>
-                <tr>
-                    <td>spain</td>
-                    <td>2.1%</td>
-                </tr>
-                <tr>
-                    <td>India</td>
-                    <td>1.9%</td>
-                </tr>
-                <tr>
-                    <td>France</td>
-                    <td>1.5%</td>
-                </tr>
-            </table>
-            <!-- button for loading more countries -->
-            <button>more countries<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-
-        </div>
-        <!-- recent users -->
-        <div>
-            <h5>recent users</h5>
+          <hr>
+          <div id="nav-links">
             <div>
-                <ol>
-                    <li><img src="" alt="">mike</li>
-                    <li><img src="" alt="">jill</li>
-                    <li><img src="" alt="">jane</li>
-                </ol>
+                <h5>dashboard</h5>
             </div>
+            <a href="#" class="f-child"><i class="fa fa-users" aria-hidden="true"></i>overview</a>
+            <a href="#"><i class="fa fa-users" aria-hidden="true"></i>views</a>
+            <a href="#"><i class="fa fa-users" aria-hidden="true"></i>traffic</a>
+            <a href="#"><i class="fa fa-bullseye" aria-hidden="true"></i>geo</a>
+            <a href="#"><i class="fa fa-diamond" aria-hidden="true"></i>orders</a>
+            <a href="#"><i class="fa fa-university" aria-hidden="true"></i>news</a>
+            <a href="#"><i class="fa fa-university" aria-hidden="true"></i>general</a>
+            <a href="#"><i class="fa fa-history" aria-hidden="true"></i>history</a>
+            <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>settings</a>
+          </div>
+        </nav>
+        <div id="main-footer-content">
+            <main>
+                <!-- dashboard -->
+                <div id="dashboard">
+                    <header>
+                        <h5>
+                            <b><i class="fa fa-tachometer" aria-hidden="true"></i>my dashboard</b>
+                        </h5>
+                    </header>
+                    <div id="dashboard-cards">
+                        <div class="card card-red">
+                            <div>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                <h3>52</h4>
+                            </div>
+                            <h4>message</h4>
+                        </div>
+                        <div class="card card-blue">
+                            <div>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <h3>99</h4>
+                            </div>
+                            <h4>views</h4>
+                        </div>
+                        <div class="card card-green">
+                            <div>
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                <h3>23</h4>
+                            </div>
+                            <h4>shares</h4>
+                        </div>
+                        <div class="card card-orange">
+                            <div>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <h3>50</h4>
+                            </div>
+                            <h4>users</h4>
+                        </div>
+        
+                    </div>
+                </div>
+                <!-- feeds  -->
+                <div id="news">
+                    <div id="region">
+                        <h5>regions</h5>
+                        <img src="" alt="regions">
+                    </div>
+                    <div id="feeds">
+                        <h5>feeds</h5>
+                        <table>
+                            <!-- feed data -->
+                            <tr>
+                                <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                                <td>New record, over 90 views.</td>
+                                <td><i>10 mins</i></td>
+                            </tr>
+                            <!-- more feed data -->
+                            <tr>
+                                <td><i class="fa fa-bell" aria-hidden="true"></i></td>
+                                <td>Database error.</td>
+                                <td><i>15 mins</i></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-users" aria-hidden="true"></i></td>
+                                <td>New record, over 40 users.</td>
+                                <td><i>17 mins</i></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-comment" aria-hidden="true"></i></td>
+                                <td>New comments.</td>
+                                <td><i>25 mins</i></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-bookmark" aria-hidden="true"></i></td>
+                                <td>Check transactions.</td>
+                                <td><i>28 mins</i></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-laptop" aria-hidden="true"></i></td>
+                                <td>CPU overload.</td>
+                                <td><i>35 mins</i></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-share-alt" aria-hidden="true"></i></td>
+                                <td>New shares.</td>
+                                <td><i>39 mins</i></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- statitics with their rates -->
+                <div id="statistics">
+                    <h5>general stats</h5>
+                    <!-- rates -->
+                    <div id="stats-numbers">
+                        <p>New Visitors</p>
+                        <div>
+                            <div>+25%</div>
+                        </div>
+                        <p>New Users</p>
+                        <div>
+                            <div>50%</div>
+                        </div>
+                        <p>Bounce Rate</p>
+                        <div>
+                            <div>75%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- countries and its counts -->
+                <div id="countries">
+                    <h5>countries</h5>
+                    <table>
+                        <!-- country data -->
+                        <tr>
+                            <td>United States</td>
+                            <td>65%</td>
+                        </tr>
+                        <!-- more country data -->
+                        <tr>
+                            <td>UK</td>
+                            <td>15.7%</td>
+                        </tr>
+                        <tr>
+                            <td>Russia</td>
+                            <td>5.6%</td>
+                        </tr>
+                        <tr>
+                            <td>spain</td>
+                            <td>2.1%</td>
+                        </tr>
+                        <tr>
+                            <td>India</td>
+                            <td>1.9%</td>
+                        </tr>
+                        <tr>
+                            <td>France</td>
+                            <td>1.5%</td>
+                        </tr>
+                    </table>
+                    <!-- button for loading more countries -->
+                    <button>more countries<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+                <!-- recent users -->
+                <div>
+                    <h5>recent users</h5>
+                    <div>
+                        <ol>
+                            <li><img src="./assets/avatar3.png" alt="avatar3">mike</li>
+                            <li><img src="./assets/avatar2.png" alt="avatar2">jill</li>
+                            <li><img src="./assets/avatar1.png" alt="avatar1">jane</li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- recent comments -->
+                <div id="recent-comments">
+                    <h5>recent comments</h5>
+                    <div id="comments">
+                        <div class="user">
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>
+                                <h4>John <span>Sep 29, 2014, 9:12 PM</span></h4>
+                                <p>
+                                    Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                            </div>
+                        <div class="user">
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>
+                                <h4>Bo <span>Sep 28, 2014, 10:15 PM</span></h4>
+                                <p>
+                                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu -->
+                <div id="menu">
+                    <div class="container">
+                        <div class="demograph">
+                            <h5>demographic</h5>
+                            <p>language</p>
+                            <p>country</p>
+                            <p>city</p>
+                        </div>
+                        <div class="system">
+                            <h5>system</h5>
+                            <p>browser</p>
+                            <p>OS</p>
+                            <p>more</p>
+                        </div>
+                        <div class="target">
+                            <h5>target</h5>
+                            <p>users</p>
+                            <p>active</p>
+                            <p>GEO</p>
+                            <p>interests</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <h4>FOOTER</h4>
+                <p>Powered by <a href="">w3.css</a></p>
+            </footer>
         </div>
-        <!-- recent comments -->
-        <div id="recent-comments">
-            <h5>recent comments</h5>
-            <div id="comments">
-                <div class="user">
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <h4>John <span>Sep 29, 2014, 9:12 PM</span></h4>
-                        <p>
-                            Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
-                        </p>
-                    </div>
-                <div class="user">
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                    <div>
-                        <h4>Bo <span>Sep 28, 2014, 10:15 PM</span></h4>
-                        <p>
-                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- menu -->
-        <div id="menu">
-            <div class="container">
-                <div class="demograph">
-                    <h5>demographic</h5>
-                    <p>language</p>
-                    <p>country</p>
-                    <p>city</p>
-                </div>
-                <div class="system">
-                    <h5>system</h5>
-                    <p>browser</p>
-                    <p>OS</p>
-                    <p>more</p>
-                </div>
-                <div class="target">
-                    <h5>target</h5>
-                    <p>users</p>
-                    <p>active</p>
-                    <p>GEO</p>
-                    <p>interests</p>
-                </div>
-            </div>
-
-        </div>
-    </main>
-    <footer>
-        <h4>FOOTER</h4>
-        <p>Powered by <a href="">w3.css</a></p>
-    </footer>
+    </div>
   </body>
 </html>
