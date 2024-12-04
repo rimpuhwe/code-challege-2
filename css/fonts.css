@@ -54,3 +54,7 @@ button{
 .text h4 span{
     font-size: 14px;
 }
+footer h4{
+    font-size:20px;
+    font-weight: normal;
+}
