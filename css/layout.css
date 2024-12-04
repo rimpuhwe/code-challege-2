@@ -9,7 +9,11 @@ body{
 }
 /* h5 */
 h5{
+    font-size:18px;
+    line-height:27px;
+    margin:10px 0px;
     text-transform: capitalize;
+
 }
 /* header */
 #title{
@@ -17,6 +21,7 @@ h5{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    z-index: 1000;
 }
 #title span{
     line-height:27px;
@@ -30,7 +35,7 @@ h5{
 }
 /* navigation bar */
 #nav-bar{
-    width:25%;
+    width:30%;
     height:fit-content;
     position: sticky;
     top:0;
@@ -74,11 +79,6 @@ h5{
 #nav-links div{
     padding:5px 16px;
 } 
-#nav-links h5{
-    font-size:18px;
-    line-height:27px;
-    margin:10px 0px;
-}
 #nav-links a{
     width:100%;
     line-height:22.5px;
@@ -94,11 +94,10 @@ h5{
 main{
     flex:1;
     border:2px solid slateblue;
-    padding:20px 15px;
 }
-#dashboard{
+#dashboard,#news,#statistics,#countries,#recent-user,#recent-comments{
     width:100%;
-    border:1px solid red;
+    padding:0.15px 16px;
 }
 #dashboard header{
     padding:10px 0;
@@ -115,7 +114,7 @@ main{
     border:1px solid transparent;
     padding:15px 5px;
     margin:10px 0;
-    padding:15px;
+    padding:16px;
     
 }
 .card .numbers{
@@ -126,7 +125,96 @@ main{
 }
 .card h4{
     margin:15px 0;
+    text-transform: capitalize;
 }
+/* styling the container holds the region and feeds */
+#news{
+    display: flex;
+    justify-content: space-between;
+}
+#news h5{
+    line-height:27px;
+    margin:10px 0px;
+}
+/* region */
+#region{
+    width:34%;
+}
+#region div{
+    width:100%;
+}
+#region  img{
+    max-width:100%;
+}
+/* feed table */
+#feeds{
+    width:64%;
+}
+table,tr{
+    width:100%;
+    border-collapse: collapse;
+}
+td i{
+    padding:6px 6px 6px 12px;
+    text-align:left;
+}
+td{
+    padding:6px;
+    border:none;
+}
+tr .col-1{
+    width:10%;
+}
+tr .col-2{
+    width:65%;
+}
+tr .col-3{
+    width:25%;
+}
+/* statistics with their rates  */
+#stats-numbers{
+    width:100%;
+    line-height: 27px;
+}
+#stats-numbers .rate{
+    width:100%;
+}
+.rate .percent{
+    padding:5px 16px;
+    text-align:center;
+}
+.percent.top{
+    width:25%;
+}
+.percent.middle{
+    width:50%;
+}
+.percent.last{
+    width:75%;
+}
+/* country table */
+#countries .country-data{
+    border:1px solid #c2c2c2;
+}
+#countries .country-data td{
+    padding:8px;
+}
+#countries .country-data tr{
+    border-bottom: 1px solid #ccc;
+}
+/* countries button */
+button{
+    width:20%;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    text-transform: capitalize;
+    margin:20px 0;
+    border:1px solid transparent;
+}
+
 
 
 
