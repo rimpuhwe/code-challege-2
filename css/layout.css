@@ -7,6 +7,10 @@
 body{
     width:100%;
 }
+/* h5 */
+h5{
+    text-transform: capitalize;
+}
 /* header */
 #title{
     height:fit-content;
@@ -18,7 +22,7 @@ body{
     line-height:27px;
     padding:8px 16px;
 }
-/* container that hold both nav-bar and main */
+/* container that hold both nav-bar andmain */
 #divider{
     width:100%;
     border:1px solid red;
@@ -27,8 +31,11 @@ body{
 /* navigation bar */
 #nav-bar{
     width:25%;
-    border:1px solid green;
+    height:fit-content;
+    position: sticky;
+    top:0;
 }
+
 #user{
     width:100%;
     display: flex;
@@ -55,5 +62,36 @@ body{
     align-items: center;
     padding: 5px 16px;
 }
+/* nav-links */
+#nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    width: 100%;
+    padding:10px 0 0 0;
+}
+#nav-links div{
+    padding:5px 16px;
+} 
+#nav-links h5{
+    font-size:18px;
+    line-height:27px;
+    margin:10px 0px;
+}
+#nav-links a{
+    width:100%;
+    line-height:22.5px;
+    padding:10px 16px;
+    text-align:left;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    text-decoration: none;
+    border-bottom: 1px solid #e6e6e6;
+    text-transform: capitalize;
+}
+
+
 
 
