@@ -85,3 +85,17 @@ button:hover{
 .text h4 span{
     color:#817c7c;
 }
+#menu{
+    background: #616161;
+    color:var(--color-white)
+}
+.demograph h5{
+    border-bottom:5px solid var(--color-lightgreen)
+}
+.system h5{
+    border-bottom:5px solid var(--color-orange)
+}
+.target h5{
+    border-bottom:5px solid var(--color-lightyellow)
+}
+
