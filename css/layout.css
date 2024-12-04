@@ -91,6 +91,32 @@ h5{
     border-bottom: 1px solid #e6e6e6;
     text-transform: capitalize;
 }
+main{
+    flex:1;
+    border:2px solid slateblue;
+    padding:20px 15px;
+}
+#dashboard{
+    width:100%;
+    border:1px solid red;
+}
+#dashboard header{
+    padding:10px 0;
+    border:1px solid black;
+}
+#dashboard-cards{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width:25%;
+    height:fit-content;
+    border:1px solid black;
+    padding:10px;
+    margin:10px;
+    display: flex;
+}
 
 
 
