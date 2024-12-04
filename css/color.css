@@ -90,12 +90,15 @@ button:hover{
     color:var(--color-white)
 }
 .demograph h5{
-    border-bottom:5px solid var(--color-lightgreen)
+    border-bottom:6px solid var(--color-lightgreen)
 }
 .system h5{
-    border-bottom:5px solid var(--color-orange)
+    border-bottom:6px solid var(--color-red)
 }
 .target h5{
-    border-bottom:5px solid var(--color-lightyellow)
+    border-bottom:6px solid var(--color-orange)
+}
+footer a{
+    color:var(--color-black);
 }
 
