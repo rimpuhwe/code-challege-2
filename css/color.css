@@ -101,4 +101,10 @@ button:hover{
 footer a{
     color:var(--color-black);
 }
+#recent-user li{
+    border-bottom:1px solid #c7c7c7;
+}
+#recent-user div{
+    background: var(--color-white);
+}
 
