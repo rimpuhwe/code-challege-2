@@ -8,11 +8,14 @@ body{
 #title span,h5{
     font-size: 18px;
 }
-#nav-bar,#nav-bar i,#nav-links a ,table,tr{
-    font-size:15px;
+#user-id h2 span{
+    font-weight: 600;
 }
-#dashboard h5{
-    font-weight:700;
+#user-id h2 span{
+    font-size: 17px;
+}
+#nav-bar,#nav-bar i,#nav-links a ,table,tr,#user-id h2{
+    font-size:15px;
 }
 .card .numbers i{
     font-size:48px;
@@ -23,7 +26,7 @@ body{
 .card h3{
     font-size: 24px;
 }
-.card h3 , h5,.text h4 span,footer h4{
+.card h3 , h5,.text h4 span,footer h4,#user-id h2{
     font-weight: normal;
 }
 .card h4, .text h4{
