@@ -18,18 +18,26 @@ h5{
 /* header */
 #title{
     height:fit-content;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     position: fixed;
+    padding:8px;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
 }
+#title .header-menu{
+    display: none;
+} 
+#title #title-content{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+#title div{
+    padding:0 16px;
+}
 #title span{
     line-height:27px;
-    padding:8px 16px;
 }
 /* container that hold both nav-bar andmain */
 #divider{
@@ -101,12 +109,13 @@ h5{
     text-transform: capitalize;
 }
 #main-footer-content{
+    width:75%;
     margin-left:25%; /* Match the width of the fixed nav-bar */
     margin-top: 30px;
     padding-top:20px;
 }
 main{
-    flex:1;
+    width:100%;
 }
 #dashboard,#news,#statistics,#countries,#recent-user,#recent-comments{
     width:100%;
@@ -136,7 +145,6 @@ main{
     border:1px solid transparent;
     padding:15px 5px;
     margin:10px 0;
-    padding:16px;
     
 }
 .card .numbers{
@@ -221,7 +229,7 @@ tr .col-3{
 }
 /* country table */
 #countries .country-data td{
-    padding:8px;
+    padding:10px;
 }
 /* countries button */
 button{
