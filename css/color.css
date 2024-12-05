@@ -19,6 +19,9 @@ body{
 #title span{
     color:var(--color-white);
 }
+#title div{
+    color:white;
+}
 #nav-bar{
     background: var(--color-white);
 }
@@ -112,6 +115,9 @@ footer a{
 }
 #countries .country-data tr{
     border-bottom: 1px solid #ccc;
+}
+#countries .country-data tr:hover{
+    background:#c7c7c7;
 }
 #recent-user div{
     box-shadow: 5px 5px 10px #7575754d,-5px -5px 10px #7575754d;
