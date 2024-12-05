@@ -21,6 +21,10 @@ h5{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
 }
 #title span{
@@ -30,26 +34,25 @@ h5{
 /* container that hold both nav-bar andmain */
 #divider{
     width:100%;
-    border:1px solid red;
     display: flex;
 }
 /* navigation bar */
 #nav-bar{
-    width:30%;
+    width:25%;
     height:fit-content;
-    position: sticky;
-    top:0;
+    position: fixed;
+    top:30px;
+    left: 0;
 }
 
 #user{
     width:100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding:0.15px 16px;
+    padding:20px 16px;
 }
 .img-container{
-    width:15%;
+    width:20%;
     
 }
 .img-container img{
@@ -60,12 +63,16 @@ h5{
 #user #user-id{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap:10px;
+    width:70%;
 }
 #user-id #user-icons{
+    width:50%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 5px 16px;
+    align-items: center;   
 }
 /* nav-links */
 #nav-links{
@@ -74,11 +81,14 @@ h5{
     justify-content: flex-start;
     align-items:flex-start;
     width: 100%;
-    padding:10px 0 0 0;
+    padding:8px 0 15px 0;
 }
 #nav-links div{
-    padding:5px 16px;
+    margin:5px 16px;
 } 
+#nav-links h5{
+    margin:0 0 5px 0;
+}
 #nav-links a{
     width:100%;
     line-height:22.5px;
@@ -88,19 +98,31 @@ h5{
     align-items: center;
     gap:5px;
     text-decoration: none;
-    border-bottom: 1px solid #e6e6e6;
     text-transform: capitalize;
+}
+#main-footer-content{
+    margin-left:25%; /* Match the width of the fixed nav-bar */
+    margin-top: 30px;
+    padding-top:20px;
 }
 main{
     flex:1;
-    border:2px solid slateblue;
 }
 #dashboard,#news,#statistics,#countries,#recent-user,#recent-comments{
     width:100%;
     padding:0.15px 16px;
 }
 #dashboard header{
-    padding:10px 0;
+    padding:20px 0 0 0 ;
+    display: flex;
+    justify-content:baseline;
+    align-items:baseline;
+}
+#dashboard header h5{
+    margin:0;
+}
+#dashboard i{
+    margin-right: 5px ;
 }
 #dashboard-cards{
     width:100%;
@@ -175,6 +197,11 @@ tr .col-3{
 #stats-numbers{
     width:100%;
     line-height: 27px;
+    display: inline-flex;
+    margin-bottom:10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap:10px;
 }
 #stats-numbers .rate{
     width:100%;
@@ -193,14 +220,8 @@ tr .col-3{
     width:75%;
 }
 /* country table */
-#countries .country-data{
-    border:1px solid #c2c2c2;
-}
 #countries .country-data td{
     padding:8px;
-}
-#countries .country-data tr{
-    border-bottom: 1px solid #ccc;
 }
 /* countries button */
 button{
@@ -218,7 +239,6 @@ button{
 #recent-user div{
     margin-bottom: 26px;
     width:100%;
-    box-shadow: 5px 5px 10px #7575754d,-5px -5px 10px #7575754d;
 }
 #recent-user li{
     display: flex;
