@@ -107,4 +107,13 @@ footer a{
 #recent-user div{
     background: var(--color-white);
 }
+#countries .country-data{
+    border:1px solid #c2c2c2;
+}
+#countries .country-data tr{
+    border-bottom: 1px solid #ccc;
+}
+#recent-user div{
+    box-shadow: 5px 5px 10px #7575754d,-5px -5px 10px #7575754d;
+}
 
