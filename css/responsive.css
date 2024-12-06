@@ -59,7 +59,6 @@
     .container div{
         width:100%;
     }
-    
 }
 /* screen like tablets and not greater than 999 */
 @media (min-width: 601px) and (max-width: 992px){
@@ -86,6 +85,9 @@
     #main-footer-content{
         margin-left:0%;
         width:100%;
+        position: fixed;
+        transform: translateX(100%);
+        animation: main 0.2s ease forwards;
     }
     button{
         width:25%;
@@ -93,6 +95,46 @@
     .rate .percent{
         padding:8px 16px;
     }
+    .card,
+    #feeds table, 
+    #stats-numbers .rate,
+    #stats-numbers p,
+    .country-data,
+    #recent-comments #comments,
+    .container{
+        transform: translateX(30px);
+        animation: slides 0.5s ease forwards;
+
+    }
+    .card-red,#region div{
+        transform:translateY(20px);
+        animation: fade 0.3s ease-in forwards;
+    }
+    @keyframes main {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(0); 
+        }
+    }
+    @keyframes slides {
+        0% {
+          transform: translateX(30px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+    }
+    @keyframes fade {
+        0% {
+          transform: translateY(20px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+    }
+
     
 }
 /* larger screen kike desktop and laptop */
@@ -100,5 +142,19 @@
     button{
         width:25%;
     }
-
+    #nav-bar{
+        /* move the nav-bar horizontally so that it can be seen */
+        transform: translateX(-100%);
+        animation: slide-in 0.5s ease forwards;
+    }
+    @keyframes slide-in {
+        /* Start off-screen */
+        0% {
+            transform: translateX(-100%); 
+        }
+        /* End fully visible */
+        100% {
+          transform: translateX(0);
+        }
+    }
 }
